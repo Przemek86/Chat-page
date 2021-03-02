@@ -1,142 +1,150 @@
+/*-------------------------------------------------*\
+                   LAYOUT
+\*-------------------------------------------------*/
+
+
 
 
 
 .container {
-display: grid;
-  grid-template-columns: 4fr repeat(12, 100px);
-  grid-template-rows: repeat(18, 100px);
-  box-sizing: border-box;
+  display:                grid;
+  grid-template-columns:  4fr repeat(12, 100px);
+  grid-template-rows:     repeat(18, 100px);
+  box-sizing:             border-box;
 }
 
 .input-1 {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  background-color: #F4F3F5;
-  width: 100%;
-  height: 100%;
-text-align: left;
-font: normal normal bold 14px/18px Montserrat;
-letter-spacing: 0px;
-color: #211138;
-opacity: 1;
+  grid-column-start:      1;
+  grid-column-end:        2;
+  grid-row-start:         1;
+  grid-row-end:           2;
+  background-color:       #F4F3F5;
+  width:                  100%;
+  height:                 100%;
+  text-align:             left;
+  font:                   normal normal bold 14px/18px Montserrat;
+  letter-spacing:         0px;
+  color:                  #211138;
+  opacity:                1;
 }
 
 .person-1 {
-   grid-column-start: 1;
-  grid-column-end: 2;
-  height: 80px;
-  background-color: #FFFFFF;
+  grid-column-start:      1;
+  grid-column-end:        2;
+  height:                 80px;
+  background-color:       #FFFFFF;
   
 }
 
 .block {
-  display: grid;
-  grid-template-columns: 100px auto;
-  grid-template-rows: auto;
+  display:                grid;
+  grid-template-columns:  100px auto;
+  grid-template-rows:     auto;
 }
 
 .photo-1 {
-  align-self: start;
-  width: 80px;
-  height: 60px;
-  border-radius: 100%;
+  align-self:            start;
+  width:                 80px;
+  height:                60px;
+  border-radius:         100%;
 }
 
 .nav {
-  height: 80px;
-  grid-row-start: 1;
-  grid-column-start: 2;
-  grid-column-end: 14;
-  display: grid;
-  justify-content: space-between;
+  height:                80px;
+  grid-row-start:        1;
+  grid-column-start:     2;
+  grid-column-end:       14;
+  display:               grid;
+  justify-content:       space-between;
   grid-template-columns: repeat(3, 150px);
 }
 
 .name {
- align-self: center;
-  padding-left: 1rem;
+  align-self:            center;
+  padding-left:          1rem;
 }
 
 .logo {
-align-self: center;
+align-self:              center;
 }
 
 .student {
-  align-self: center;
+  align-self:            center;
 }
 
 .chat {
-  display: grid;
-  grid-template-rows: repeat(9, 100px);
+  display:               grid;
+  grid-template-rows:    repeat(9, 100px);
   grid-template-columns: repeat(12, 100px);
   
-  background-color: #F4F3F5;
-  grid-column-start: 2;
-  grid-column-end: 14;
-  grid-row-start: 2;
-  grid-row-end: 9;
+  background-color:      #F4F3F5;
+  grid-column-start:     2;
+  grid-column-end:       14;
+  grid-row-start:        2;
+  grid-row-end:          9;
 }
 
 .media-object {
-  display: flex;
-  align-items: flex-start; 
+  display:               flex;
+  align-items:           flex-start; 
 }
 
 .media-text {
-  font-size: 15px;
-  font-family: 'Noto Sans', sans-serif;
-  flex: 1;
-  width: 100%;
+  font-size:             15px;
+  font-family:           'Noto Sans', sans-serif;
+  flex:                  1;
+  width:                 100%;
 }
 
 .media-text-2 {
  
-  grid-row-start: 2;
-  
-  margin-left: 160px;
-  grid-column-start: 1;
-  grid-column-end: 6;
-  
-  height: 80px;
+  grid-row-start:        2;
+  margin-left:           160px;
+  grid-column-start:     1;
+  grid-column-end:       6;
+  height:                80px;
 }
 
 .other {
-  grid-column-start: 8;
-  grid-column-end: 12;
-  grid-row-start: 3;
-  
-
-}
+  grid-column-start:     8;
+  grid-column-end:       12;
+  grid-row-start:        3;
+  }
 
 .grid-media {
-  grid-column-start: 1;
-  grid-column-end: 9;
+  grid-column-start:     1;
+  grid-column-end:       9;
 }
+
+
+/*--------------------------------*\
+        ZAPYTANIE O MEDIA
+\*--------------------------------*/
+
+
 
 
 @media (max-width: 768px) {
   .input-1, .person-1 {
-    width: 100vw;
+    width:               100vw;
   }
   
   .nav {
-    grid-row-start: 8;
-    grid-column-start: 1;
-    width: 100vw;
+    grid-row-start:      8;
+    grid-column-start:   1;
+    width:               100vw;
   }
   
   .chat {
-grid-row-start: 9;
-    grid-row-end: 14;
-     grid-column-start: 1;
-    grid-column-end: 2;
-    width: 100vw;
+  grid-row-start:        9;
+  grid-row-end:          14;
+  grid-column-start:     1;
+  grid-column-end:       2;
+  width:                 100vw;
   }
   .other {
-     grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-start:   2;
+    grid-column-end:     5;
   }
 }
 

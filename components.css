@@ -1,74 +1,80 @@
-.font-1 {
-  font: normal normal bold 12px/15px Montserrat; 
-letter-spacing: 2.4px;
-color: #6200EA;
+/*-----------------------------------------*\
+               COMPONETS
+\*-----------------------------------------*/
 
-opacity: 1;
+
+
+
+
+.font-1 {
+font:                normal normal bold 12px/15px Montserrat; 
+letter-spacing:      2.4px;
+color:               #6200EA;
+opacity:             1;
 }
 
 .font-2 {
-  font: normal normal normal 14px/20px Montserrat;
-letter-spacing: 0px;
-color: #211138;
-opacity: 1;
+font:                normal normal normal 14px/20px Montserrat;
+letter-spacing:      0px;
+color:               #211138;
+opacity:             1;
 }
 
 .photo {
- width: 80px;
-  height: 60px;
-  border-radius: 100%;
+width:              80px;
+height:             60px;
+border-radius:      100%;
 }
 
 .nav {
-  background-color: #6200EA;
+background-color:   #6200EA;
 }
 
 .name {
-  font: normal normal bold 20px/30px Montserrat;
-letter-spacing: 0px;
-color: #FFFFFF;
-opacity: 1;
+font:                normal normal bold 20px/30px Montserrat;
+letter-spacing:      0px;
+color:               #FFFFFF;
+opacity:             1;
 }
 
 .student {
-font: normal normal bold 12px/15px Montserrat;
-letter-spacing: 2.4px;
-color: #FFFFFF;
-text-transform: uppercase;
-opacity: 1;
+font:                normal normal bold 12px/15px Montserrat;
+letter-spacing:      2.4px;
+color:               #FFFFFF;
+text-transform:      uppercase;
+opacity:             1;
 }
 
 .media-image {
  
-  width: 80px;
-  height: 60px;
-  border-radius: 100%;
-padding-left: 60px;
+width:               80px;
+height:              60px;
+border-radius:       100%;
+padding-left:        60px;
 }
 
 .media-text {
   
-  background-color: white;
-  padding: 10px;
-  border-radius: 0px 15px 15px 15px;
-  
-}
+background-color:    white;
+padding:             10px;
+border-radius:       0px 15px 15px 15px;
+  }
 
 .media-text-2 {
-   background-color: white;
-  padding: 10px;
-  border-radius: 0px 15px 15px 15px;
-  
-}
+background-color:    white;
+padding:             10px;
+border-radius:       0px 15px 15px 15px;
+  }
+
 .photo-2 {
-width: 80px;
-  height: 60px;
-  border-radius: 100%;
-    grid-column-start: 10;
+width:               80px;
+height:              60px;
+border-radius:       100%;
+grid-column-start:   10;
 }
 
 .right {
-    background-color: white;
-  padding: 10px;
-  border-radius: 0px 15px 15px 15px;
+background-color:    white;
+padding:             10px;
+border-radius:       0px 15px 15px 15px;
 }
